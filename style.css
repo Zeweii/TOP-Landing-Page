@@ -5,7 +5,7 @@
 }
 
 .hero {
-    height: 400px;
+    /* height: 400px; */
 
 }
 
@@ -15,10 +15,11 @@ body {
 }
 
 header {
-    display: flex;
+    /* display: flex;   */
     justify-content: space-between;
     align-items: baseline;
-    padding: 1em 13em;
+    /* padding: 1em 13em; */
+    background-color: #1F2937; 
 }
 
 ul {
@@ -70,14 +71,6 @@ p, li {
 p {
     
     font-size: 18px;
-}
-
-.content {  
-    display: flex;
-}
-
-.random-info {
-
 }
 
 .quote-info {

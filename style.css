@@ -142,6 +142,11 @@ p {
     text-decoration: none;
 }
 
+.signup-bottom {
+    display: flex;
+    justify-content: center;
+}
+
 ul {
     display: flex;
     gap: 20px;

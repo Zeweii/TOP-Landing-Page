@@ -28,9 +28,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    min-width: none;height: 50px;
     color: #F9FAF8;
     background-color: #1F2937;   
+    padding: 2em 0;
 }
 
 h2 {
@@ -124,6 +125,7 @@ p {
     font-weight: 300;
     word-wrap: inherit;
     background-color: #E5E7EB;
+    height: 340px;
 }
 
 .right-content {

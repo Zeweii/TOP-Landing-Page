@@ -13,6 +13,9 @@ button {
     width: 120px;
     background-color: #3882f6;
     border-radius: 8px;
+    color:#F9FAF8;
+    border: 2px solid;
+    font-size: 18px;
 }
 
 .content {
@@ -22,6 +25,13 @@ button {
 
 .content button {
     border: none;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+    font-style: italic
 }
 
 footer {
@@ -89,6 +99,13 @@ li {
     align-items: baseline;
 }
 
+p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
+}
+
 .person {
     font-size: 24px;
     font-weight: bold;
@@ -101,31 +118,13 @@ li {
     height: 200px;
 }
 
-p {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-}
-
-.quote-info {
-    height: 300px;
-    background-color: #E5E7EB;
-}
-
-.quote, .person {
-    display: flex;
-    justify-content: center;
-}
-
 .quote {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    word-wrap: inherit;
     background-color: #E5E7EB;
-    height: 340px;
+    max-height: 340px;
+    padding: 7em 13em;
 }
 
 .right-content {
@@ -144,9 +143,31 @@ p {
     text-decoration: none;
 }
 
+.signup-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    padding: 3em;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .signup-bottom {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 5em 13em; 
+}
+
+.signup-left {
+    color: #fff;;
+    font-size: 32px;
+}
+
+.signup-action {
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 ul {
